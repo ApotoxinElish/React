@@ -7,6 +7,7 @@ import logo from './logo.svg'
 
 function App() {
   const [getMessage, setGetMessage] = useState({})
+
   useEffect(() => {
     axios
       .get('http://localhost:5000/flask/hello')
