@@ -1,26 +1,18 @@
-// 项目的根组件
-// App -> index.js -> public/index.html(root)
+// 导入样式
+import './index.css'
 
-const count = 100
-
-function getName() {
-  return 'jack'
+const style = {
+  color: 'red',
+  fontSize: '50px',
 }
 
 function App() {
   return (
-    <div className="App">
-      this is App
-      {/* 使用引号传递字符串 */}
-      {'this is message'}
-      {/* 识别js变量 */}
-      {count}
-      {/* 函数调用 */}
-      {getName()}
-      {/* 方法调用 */}
-      {new Date().getDate()}
-      {/* 使用js对象 */}
-      <div style={{ color: 'red' }}>this is div</div>
+    <div>
+      {/* 行内样式控制 */}
+      <span style={style}>this is span</span>
+      {/* 通过class类名控制 */}
+      <span className="foo">this is class foo</span>
     </div>
   )
 }
