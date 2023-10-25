@@ -1,7 +1,7 @@
 // 定义文章类型
 const articleType = 3 // 0 1 3
 
-// 定义核心函数（根据文章类型返回不同的JSX模板）
+// 定义核心函数（根据文章类型返回不同的JSX模版）
 
 function getArticleTem() {
   if (articleType === 0) {
@@ -16,7 +16,7 @@ function getArticleTem() {
 function App() {
   return (
     <div className="App">
-      {/* 调用函数渲染不同的模板 */}
+      {/* 调用函数渲染不同的模版 */}
       {getArticleTem()}
     </div>
   )

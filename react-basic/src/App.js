@@ -1,20 +1,7 @@
-// 导入样式
-import './index.css'
-
-const style = {
-  color: 'red',
-  fontSize: '50px',
-}
-
+// 项目的根组件
+// App -> index.js -> public/index.html(root)
 function App() {
-  return (
-    <div>
-      {/* 行内样式控制 */}
-      <span style={style}>this is span</span>
-      {/* 通过class类名控制 */}
-      <span className="foo">this is class foo</span>
-    </div>
-  )
+  return <div className="App">this is App</div>
 }
 
 export default App

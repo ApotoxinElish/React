@@ -15,7 +15,7 @@ function App() {
 
   const changeForm = () => {
     // 错误写法：直接修改
-    form.name = 'john'
+    // form.name = 'john'
     // 正确写法：setFrom 传入一个全新的对象
     setForm({
       ...form,
