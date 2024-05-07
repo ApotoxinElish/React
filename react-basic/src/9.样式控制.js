@@ -3,10 +3,10 @@ import './index.css'
 
 const style = {
   color: 'red',
-  fontSize: '50px',
+  fontSize: '50px'
 }
 
-function App() {
+function App () {
   return (
     <div>
       {/* 行内样式控制 */}

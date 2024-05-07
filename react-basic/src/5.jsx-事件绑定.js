@@ -1,4 +1,5 @@
-function App() {
+
+function App () {
   // 基础绑定
   // const handleClick = () => {
   //   console.log('button被点击了')

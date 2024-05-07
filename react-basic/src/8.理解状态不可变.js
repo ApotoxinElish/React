@@ -1,6 +1,6 @@
 import { useState } from 'react'
 
-function App() {
+function App () {
   let [count, setCount] = useState(0)
 
   const handleClick = () => {
@@ -19,7 +19,7 @@ function App() {
     // 正确写法：setFrom 传入一个全新的对象
     setForm({
       ...form,
-      name: 'john',
+      name: 'john'
     })
   }
 
